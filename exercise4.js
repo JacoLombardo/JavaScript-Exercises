@@ -114,7 +114,7 @@ function addEven2(listA) {
     let summA = 0
     for (let i = 0; i < listA.length; i++) {
         if (i % 2 === 0) {
-            summA = summA + listA[i];
+            summA += listA[i];
         }
     }
     return summA;
@@ -157,4 +157,4 @@ function oddY(a, b) {
     return oddArray
 }
 
-console.log(oddY(47, 56));
+console.log(oddY(43, 56));
