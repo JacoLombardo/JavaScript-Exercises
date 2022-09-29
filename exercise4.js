@@ -141,14 +141,14 @@ console.log(even1(9));
 function oddY(a, b) {
     let oddArray = [];
     if (a < b) {
-        for (i = a; i < b; i++){
+        for (i = a; i <= b; i++){
             if (i % 2 !== 0) {
                 oddArray.push(i);
             }
         }
     }
     if (a > b) {
-        for (i = b; i < a; i++){
+        for (i = b; i <= a; i++){
             if (i % 2 !== 0) {
                 oddArray.push(i);
             }
